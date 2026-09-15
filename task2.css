@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;500;600;700&display=swap');
+
+body {
+    background-color: #000000;
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #000000;
+    color: #FEA028;
+    text-align: center;
+    padding: 40px 20px;
+    border-bottom: 5px solid #FEA028;
+}
+
+.header h1 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 64px;
+    letter-spacing: 5px;
+    margin: 0 0 5px;
+}
+
+.header p {
+    color: #FFFFFF;
+    font-size: 16px;
+    margin: 0;
+    letter-spacing: 2px;
+}
+
+.navbar {
+    background-color: #4F0F0F;
+    text-align: center;
+    padding: 15px;
+}
+
+.navbar a {
+    display: inline-block;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: 600;
+    margin: 0 20px;
+    padding: 8px 15px;
+    transition: 0.3s;
+}
+
+.navbar a:hover {
+    background-color: #FEA028;
+    color: #000000;
+}
+
+.layout {
+    width: 90%;
+    max-width: 1200px;
+    margin: 40px auto;
+    overflow: hidden;
+}
+
+.sidebar {
+    float: left;
+    width: 25%;
+    background-color: #4F0F0F;
+    color: #FFFFFF;
+    padding: 25px;
+    box-sizing: border-box;
+    border-left: 5px solid #FEA028;
+    box-shadow: 5px 5px 0 #FEA028;
+}
+
+.sidebar h2 {
+    font-family: 'Bebas Neue', sans-serif;
+    color: #FEA028;
+    font-size: 34px;
+    letter-spacing: 2px;
+    margin-top: 0;
+}
+
+.sidebar ul {
+    padding-left: 20px;
+}
+
+.sidebar li {
+    margin-bottom: 18px;
+    font-size: 15px;
+}
+
+.content {
+    float: right;
+    width: 70%;
+}
+
+.movie {
+    background-color: #FFFFFF;
+    color: #000000;
+    padding: 25px;
+    margin-bottom: 20px;
+    border-left: 6px solid #FEA028;
+    box-shadow: 5px 5px 0 #4F0F0F;
+}
+
+.movie h2 {
+    font-family: 'Bebas Neue', sans-serif;
+    color: #4F0F0F;
+    font-size: 36px;
+    letter-spacing: 2px;
+    margin-top: 0;
+}
+
+.movie p {
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+.footer {
+    clear: both;
+    background-color: #4F0F0F;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 14px;
+}
