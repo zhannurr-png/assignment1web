@@ -1,0 +1,151 @@
+body {
+    background-color: #d7d8c6;
+    color: #373737;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 40px;
+}
+
+#page-title {
+    text-align: center;
+    font-size: 42px;
+    margin-bottom: 35px;
+    color: #373737;
+}
+
+.table-container {
+    width: 85%;
+    margin: 0 auto 45px auto;
+    padding: 25px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+    box-sizing: border-box;
+}
+
+
+.table-container h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 30px;
+}
+
+
+/* =========================
+   TABLE
+   ========================= */
+
+table {
+    width: 100%;
+
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #373737;
+    color: white;
+    padding: 16px;
+    border: 1px solid #373737;
+    text-align: center;
+    font-size: 18px;
+}
+
+td {
+    padding: 16px;
+    border: 1px solid #919789;
+    text-align: center;
+    font-size: 17px;
+}
+
+tr:nth-child(even) {
+    background-color: #d7d8c6;
+}
+
+.highlight-row {
+    background-color: #fea028 !important;
+
+    color: #000000;
+
+    font-weight: bold;
+}
+
+.form-container {
+    width: 500px;
+    margin: 0 auto 45px auto;
+    padding: 30px;
+    background-color: #373737;
+    color: white;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+}
+
+.form-container h2 {
+    text-align: center;
+    color: #fea028;
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+.form-container label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border: 1px solid #919789;
+    border-radius: 6px;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.radio-group {
+    margin-bottom: 20px;
+}
+
+.radio-group input {
+    width: auto;
+    margin-right: 5px;
+}
+
+.radio-group label {
+    display: inline;
+    margin-right: 20px;
+    font-weight: normal;
+}
+
+button {
+    width: 100%;
+    padding: 13px;
+    background-color: #fea028;
+    color: #000000;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #919789;
+    color: white;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    color: #373737;
+}
